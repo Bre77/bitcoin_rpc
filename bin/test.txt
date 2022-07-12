@@ -1,0 +1,1 @@
+./bin/splunk cmd splunkd print-modinput-config bitcoin_transaction_metrics bitcoin_transaction_metrics://test | ./bin/splunk cmd python ./etc/apps/bitcoin_rpc/bin/bitcoin_transaction_metrics.py
